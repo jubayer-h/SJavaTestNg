@@ -21,6 +21,10 @@ public class SecondTest {
     void Newtest(){
         System.out.println("neww add");
     }
+    @Test
+    void new1tesr(){
+        System.out.println("hello");
+    }
     @Test(priority = 4)
     void teardown() {
         System.out.println("close brower");
