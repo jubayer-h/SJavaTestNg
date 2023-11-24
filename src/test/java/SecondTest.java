@@ -17,6 +17,10 @@ public class SecondTest {
         System.out.println("this is add customer");
         Assert.assertEquals(1,1);
     }
+    @Test
+    void Newtest(){
+        System.out.println("neww add");
+    }
     @Test(priority = 4)
     void teardown() {
         System.out.println("close brower");
