@@ -2,12 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/jubayerhussain/IdeaProjects/SimlpJavaTesTNG">
-        <classes>
-
-            <class name="FirstTest"></class>
-            <class name="SecondTest"></class>
-        </classes>
-
-
+        <classes/>
     </test>
 </suite>
