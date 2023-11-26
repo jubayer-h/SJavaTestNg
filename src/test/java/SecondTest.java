@@ -25,7 +25,7 @@ public class SecondTest {
     void new1tesr(){
         System.out.println("hello");
     }
-    @Test(priority = 4)
+    @Test(priority = 4,groups = {"sanity"})
     void teardown() {
         System.out.println("close brower");
     }
